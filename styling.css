@@ -1,0 +1,145 @@
+body {
+    background-color: #060f21;
+}
+.naira {
+    width: 1000px;
+    height: 400px;
+    border-radius: 3px;
+    background-color: #0089ff;
+    background-image: url(../Piggyvest/naira.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-left: 150px;
+    display: flex;
+    justify-items:flex-start ;
+}
+.lock {
+    padding-left: 100px;
+}
+.button {
+    border-radius: 10px;
+    float: right;
+    color: white;
+    background-color: #009eff;
+    margin-right: 300px;
+    height: 30px;
+}
+.imgr {
+    width: 50px;
+    margin-left: 150px;
+    transform: rotate(0deg);
+    animation: rotate 5s infinite;
+}
+@keyframes rotate {
+    to {
+        transform: rotate(360deg);
+    }
+    
+}
+.txt {
+    font-size: 60px;
+    color: #0089ff;
+    font-family: "Notable", sans-serif;
+    font-weight: 400;
+    
+}
+.bar {
+    display: flex;
+    align-items: end;
+    margin-left: 0px;
+}
+.blue-box {
+    height: 180px;
+    width: 180px;
+    background-color: blue;
+    opacity: 0.5;
+    align-content: end;
+    font-size: 100px;
+    margin-top: 20px;
+}
+.pink-box {
+    height: 200px;
+    width: 180px;
+    background-color: pink;
+    opacity: 0.7;
+    align-content: end;
+    font-size: 100px;
+    margin-top: 20px;
+}
+.green-box {
+    height: 150px;
+    width: 180px;
+    background-color: green;
+    opacity: 0.5;
+    align-content: end;
+    font-size: 100px;
+    margin-top: 20px;
+}
+.blue-box2 {
+    height: 120px;
+    width: 180px;
+    background-color: blue;
+    opacity: 0.5;
+    align-content: end;
+    font-size: 100px;
+    margin-top: 20px;
+}
+.purple-box {
+    height: 100px;
+    width: 180px;
+    background-color: purple;
+    opacity: 0.5;
+    align-content: end;
+    font-size: 100px;
+    margin-top: 20px;
+}
+.yellow-box {
+    height: 80px;
+    width: 100px;
+    background-color: yellow;
+    opacity: 0.7;
+    align-content: end;
+    font-size: 70px;
+    margin-top: 20px;
+}
+.num {
+    color: white;
+    margin-top: 50px;
+}
+.blue-box:hover {
+    width: 200px;
+    height: 190px;
+    transition-duration: 1s;
+}
+.pink-box:hover {
+    width: 210px;
+    height: 210px;
+    transition-duration: 1s;
+}
+.green-box:hover {
+    width: 200px;
+    height: 170px;
+    transition-duration: 1s;
+}
+.blue-box2:hover {
+    width: 200px;
+    height: 140px;
+    transition-duration: 1s;
+}
+.purple-box:hover {
+    width: 200px;
+    height: 110px;
+    transition-duration: 1s;
+}
+.yellow-box:hover {
+    width: 120px;
+    height: 90px;
+    transition-duration: 1s;
+}
+.span {
+    color: white;
+    gap: 100px;
+    display: flex;
+    padding-left: 160px;
+}
